@@ -1,0 +1,196 @@
+# This determines the schema that all indicator metadata must follow.
+# It also provides a configuration for the Prose.io file-editing service.
+prose:
+  metadata:
+    meta:
+    ############ Page Data ############
+      - name: "title"
+        field:
+            element: text
+            label: "Page Title"
+            translation_key: metadata_fields.title
+            scope: page
+      - name: "sdg_goal"
+        field:
+            element: hidden
+            label: "SDG Goal"
+            translation_key: metadata_fields.sdg_goal
+            scope: page
+      - name: "permalink"
+        field:
+            element: hidden
+            label: "Permalink"
+            translation_key: metadata_fields.permalink
+            scope: page
+      - name: "layout"
+        field:
+            element: hidden
+            label: "Layout"
+            translation_key: metadata_fields.layout
+            scope: page
+
+######### National Metadata #########
+      - name: "indicator_number"
+        field:
+            element: text
+            label: "Indicator number"
+            translation_key: metadata_fields.indicator
+            scope: national
+      - name: "indicator_name"
+        field:
+            element: text
+            label: "Indicator name"
+            translation_key: metadata_fields.indicator_name
+            scope: national
+      
+      - name: "computation_definitions"
+        field:
+            element: textarea
+            label: "Definitions"
+            translation_key: metadata_fields.computation_definitions
+            scope: national
+      - name: "computation_units"
+        field:
+            element: text
+            label: "Unit of measurement"
+            translation_key: metadata_fields.computation_units
+            scope: national
+      - name: "national_geographical_coverage"
+        field:
+            element: text
+            label: "Geographical coverage"
+            translation_key: metadata_fields.national_geographical_coverage
+            scope: national
+
+      - name: "source_periodicity_1"
+        field:
+            element: text
+            label: "Periodicity"
+            translation_key: metadata_fields.source_periodicity_1
+            scope: national
+      - name: "source_earliest_available_1"
+        field:
+            element: text
+            label: "Earliest available data"
+            translation_key: metadata_fields.source_earliest_available_1
+            scope: national
+      - name: "SOURCE_TYPE"
+        field:
+            element: text
+            label: "Data sources"
+            translation_key: metadata_fields.SOURCE_TYPE
+            scope: national
+
+      - name: "national_data_update_url_text"
+        field:
+            element: hidden
+            label: "Data last updated"
+            translation_key: metadata_fields.national_data_update_url_text
+            scope: national
+      - name: "national_metadata_update_url_text"
+        field:
+            element: hidden
+            label: "Metadata last updated"
+            translation_key: metadata_fields.national_metadata_update_url_text
+            scope: national
+            
+      - name: "comments_limitations"
+        field:
+            element: text
+            label: "Comments and limitations"
+            translation_key: metadata_fields.comments_limitations
+            scope: national
+            
+
+       ######### Data Info #########
+      - name: "reporting_status"
+        field:
+            element: select
+            label: "Reporting status"
+            translation_key: metadata_fields.reporting_status
+            options:
+              - name: 'complete'
+                value: 'complete'
+                translation_key: status.reported_online
+              - name: 'inprogress'
+                value: 'inprogress'
+                translation_key: status.statistics_in_progress
+              - name: 'notstarted'
+                value: 'notstarted'
+                translation_key: status.exploring_data_sources
+              - name: 'notapplicable'
+                value: 'notapplicable'
+                translation_key: status.not_applicable
+            scope: data
+      - name: data_non_statistical
+        field:
+            element: checkbox
+            label: Non-statistical indicator
+            translation_key: metadata_fields.data_non_statistical
+            help: Check this box if this indicator does not have numeric data associated with it
+            value: false
+            scope: data
+      - name: data_footnote
+        field:
+            element: text
+            label: Footnote
+            translation_key: metadata_fields.data_footnote
+            help: Footnotes appear under the chart and by data tables
+            scope: data
+      - name: copyright
+        field:
+            element: text
+            label: Copyright
+            translation_key: metadata_fields.copyright
+            help: Copyright appears under the chart and by data tables
+            scope: data
+      - name: data_geocode_regex
+        field:
+            element: text
+            label: GeoCode Regular Expression
+            translation_key: metadata_fields.data_geocode_regex
+            help: A regex on which geocodes to include
+            scope: data
+      - name: data_keywords
+        field:
+            element: text
+            label: Search Keywords
+            translation_key: metadata_fields.data_keywords
+            help: Comma separated keywords for search page
+            scope: data
+      - name: data_show_map
+        field:
+            element: checkbox
+            label: Show the map when GeoCodes are present?
+            translation_key: metadata_fields.data_show_map
+            help: If this box is checked then the prescence of a GeoCode field will trigger a map
+            value: false
+            scope: data
+      - name: "indicator_sort_order"
+        field:
+            element: text
+            label: "Indicator display order (within Goal page)"
+            translation_key: metadata_fields.indicator_sort_order
+            scope: data
+      ######### Chart Info #########
+      - name: "graph_type"
+        field:
+            element: select
+            label: "Graph type"
+            translation_key: metadata_fields.graph_type
+            options:
+              - name: 'line'
+                value: 'line'
+              - name: 'bar'
+                value: 'bar'
+              - name: 'binary'
+                value: 'binary'
+            scope: graph
+      - name: "graph_title"
+        field:
+            element: text
+            label: "Graph Title"
+            translation_key: metadata_fields.graph_title
+            scope: graph
+      
+  ignore: ['/scripts', '/.github']
