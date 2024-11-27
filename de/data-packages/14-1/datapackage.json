@@ -1,0 +1,44 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Gruppierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Wirtschaft",
+                "Kommunale Einrichtung",
+                "Private Haushalte",
+                "Verkehr",
+                ""
+              ]
+            },
+            "title": "Gruppierung"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "14-1",
+  "title": "14-1"
+}
