@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Armutsbetroffene Gruppe",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tKinderarmut anteilig in %",
+                "\tAltersarmut anteilig in %",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
