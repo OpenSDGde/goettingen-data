@@ -875,6 +875,19 @@
             "type": "integer"
           },
           {
+            "name": "Sektor",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tHaushalte",
+                "\tGroßverbraucher (Dienstleistung & produzierendes Gewerbe)",
+                "\tGewerbe + Handel + Dienstleistung",
+                "\tStadt Göttingen (städtisch genutzte Gebäude und Einrichtungen)",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
