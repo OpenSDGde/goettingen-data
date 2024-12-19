@@ -633,6 +633,17 @@
             "type": "integer"
           },
           {
+            "name": "Art der Unterstützung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tDurch die Göttinger Tafel unterstützte Personen",
+                "\tEssensausgaben pro Woche bei der Göttinger Tafel",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
