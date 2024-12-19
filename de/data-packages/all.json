@@ -1892,6 +1892,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Art",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tKleingarten Parzellen",
+                "\tGrabeland Parzellen",
+                ""
+              ]
+            },
+            "title": "Art"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

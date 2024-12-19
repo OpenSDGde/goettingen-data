@@ -1735,6 +1735,17 @@
             "type": "integer"
           },
           {
+            "name": "Art",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tKleingarten Parzellen",
+                "\tGrabeland Parzellen",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
