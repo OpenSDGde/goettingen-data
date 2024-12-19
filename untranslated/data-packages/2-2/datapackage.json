@@ -15,16 +15,6 @@
             "type": "integer"
           },
           {
-            "name": "Art der Unterstützung",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "\tDurch die Göttinger Tafel unterstützte Personen",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "integer"
           }

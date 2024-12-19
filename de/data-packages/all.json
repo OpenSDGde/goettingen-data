@@ -747,17 +747,6 @@
             "title": "Jahr"
           },
           {
-            "name": "Art der Unterstützung",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "\tDurch die Göttinger Tafel unterstützte Personen",
-                ""
-              ]
-            },
-            "title": "Art der Unterstützung"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
