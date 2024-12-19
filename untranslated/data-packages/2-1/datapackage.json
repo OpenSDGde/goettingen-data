@@ -15,8 +15,21 @@
             "type": "integer"
           },
           {
+            "name": "Art der Initiative",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tSolidarische Landwirtschaften",
+                "\tStadtgärten und Gemeinschaftsgärten",
+                " Stadtgärten und Gemeinschaftsgärten",
+                "\tInititativen im Bereich nachhaltige Ernährung",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "string"
           }
         ]
       }
