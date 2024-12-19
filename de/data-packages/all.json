@@ -186,6 +186,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Einrichtung der Grundversorgung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tApotheke (Meter)",
+                "\tHausarzt (Meter)",
+                ""
+              ]
+            },
+            "title": "Einrichtung der Grundversorgung"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

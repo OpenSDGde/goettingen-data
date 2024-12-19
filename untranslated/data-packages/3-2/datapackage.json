@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "Einrichtung der Grundversorgung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tApotheke (Meter)",
+                "\tHausarzt (Meter)",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
