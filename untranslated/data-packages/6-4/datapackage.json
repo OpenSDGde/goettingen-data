@@ -15,27 +15,8 @@
             "type": "integer"
           },
           {
-            "name": "Energieträger",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "\tStrom",
-                "\tHeizöl EL",
-                "\tErdgas",
-                "\tFernwärme",
-                "\tBiomasse",
-                "\tUmweltwärme",
-                "\tSonnenkollektoren",
-                "\tFlüssiggas",
-                "\tSteinkohle",
-                "\tHeizstrom",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
-            "type": "integer"
+            "type": "string"
           }
         ]
       }
