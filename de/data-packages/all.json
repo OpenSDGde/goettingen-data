@@ -1955,7 +1955,7 @@
             "title": "Jahr"
           },
           {
-            "name": "Pendlerrichtung",
+            "name": "Pendelrichtung",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1966,7 +1966,7 @@
                 ""
               ]
             },
-            "title": "Pendlerrichtung"
+            "title": "Pendelrichtung"
           },
           {
             "name": "Value",

@@ -1795,7 +1795,7 @@
             "type": "integer"
           },
           {
-            "name": "Pendlerrichtung",
+            "name": "Pendelrichtung",
             "type": "string",
             "constraints": {
               "enum": [
