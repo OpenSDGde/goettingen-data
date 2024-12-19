@@ -2074,13 +2074,26 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "euc_kr",
       "schema": {
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Jahr"
+          },
+          {
+            "name": "Extremwetterlage",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tHitzetage",
+                "\tTropennächte",
+                "\tHitzeperiode",
+                ""
+              ]
+            },
+            "title": "Extremwetterlage"
           },
           {
             "name": "Value",

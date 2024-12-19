@@ -1,3 +1,13 @@
-Year,Value
-2019,1
-2020,2
+Year,Extremwetterlage,Value
+1961-1990,	Hitzetage,4
+1971-2000,	Hitzetage,5
+1981-2010,	Hitzetage,7
+1991-2020,	Hitzetage,8
+1961-1990,	Tropennächte,0
+1971-2000,	Tropennächte,0
+1981-2010,	Tropennächte,0
+1991-2020,	Tropennächte,0
+1961-1990,	Hitzeperiode,2
+1971-2000,	Hitzeperiode,2
+1981-2010,	Hitzeperiode,3
+1991-2020,	Hitzeperiode,3
