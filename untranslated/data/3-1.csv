@@ -1,3 +1,13 @@
-Year,Value
-2019,1
-2020,2
+Year,Personengruppe,Value
+2018,	Vorzeitige Sterblichkeit Frauen,	0.8
+2019,	Vorzeitige Sterblichkeit Frauen,	0.8
+2020,	Vorzeitige Sterblichkeit Frauen,	0.7
+2021,	Vorzeitige Sterblichkeit Frauen,	0.7
+2022,	Vorzeitige Sterblichkeit Frauen,	0.8
+2023,	Vorzeitige Sterblichkeit Frauen,	
+2018,	Vorzeitige Sterblichkeit Männer,	1.4
+2019,	Vorzeitige Sterblichkeit Männer,	1.3
+2020,	Vorzeitige Sterblichkeit Männer,	1.4
+2021,	Vorzeitige Sterblichkeit Männer,	1.4
+2022,	Vorzeitige Sterblichkeit Männer,	1.2
+2023,	Vorzeitige Sterblichkeit Männer,	

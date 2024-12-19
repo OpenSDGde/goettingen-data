@@ -16,8 +16,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Personengruppe",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tVorzeitige Sterblichkeit Frauen",
+                "\tVorzeitige Sterblichkeit Männer",
+                ""
+              ]
+            },
+            "title": "Personengruppe"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "string",
             "title": "Value"
           }
         ]
