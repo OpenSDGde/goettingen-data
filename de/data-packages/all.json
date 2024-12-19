@@ -1951,8 +1951,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Pendlerrichtung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tEinpendler*innen",
+                "\tBerufseinpendler*innen (einschl Auszubildende)",
+                "\tBerufsauspendler*innen (einschl. Azubis)",
+                "\tBerufspendler-Saldo (Anzahl)",
+                ""
+              ]
+            },
+            "title": "Pendlerrichtung"
           },
           {
             "name": "Value",
