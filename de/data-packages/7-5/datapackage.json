@@ -16,6 +16,21 @@
             "title": "Jahr"
           },
           {
+            "name": "Energieträger",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tBiomasse-Anlagen",
+                "\tPhotovoltaik",
+                "\tWindenergie",
+                "\tWasserkraft",
+                "\tKonventionell/überregional",
+                ""
+              ]
+            },
+            "title": "Energieträger"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

@@ -15,6 +15,20 @@
             "type": "integer"
           },
           {
+            "name": "Energieträger",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tBiomasse-Anlagen",
+                "\tPhotovoltaik",
+                "\tWindenergie",
+                "\tWasserkraft",
+                "\tKonventionell/überregional",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
