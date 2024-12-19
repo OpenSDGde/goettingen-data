@@ -527,8 +527,21 @@
             "type": "integer"
           },
           {
+            "name": "Art",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tPV-Anlagen ohne städtische Förderung",
+                "\tPV-Anlagen gefördert über den KlimaFonds",
+                "\tPV-Anlagen auf städtischen Dächern",
+                "\tInstallierte Leistung gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
