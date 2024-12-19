@@ -1,11 +1,17 @@
 Value,Disaggregation combinations using this value,Number of indicators
 	Biomasse,1,1
-	Erdgas,1,1
+	Erdgas,2,2
+	Fernwärme aus erneuerbaren Energien,1,1
+	Fernwärme konventionell,1,1
 	Fernwärme,1,1
+	Flüssiggas und Steinkohle,1,1
 	Flüssiggas,1,1
-	Heizstrom,1,1
-	Heizöl EL,1,1
+	Heizstrom,2,2
+	Heizöl EL,2,2
+	lokale erneuerbare Energien am Gesamtendenergieverbrauch,1,1
 	Sonnenkollektoren,1,1
 	Steinkohle,1,1
-	Strom,1,1
+	Strom aus erneuerbaren Energien,1,1
+	Strom,2,2
 	Umweltwärme,1,1
+	Wärme aus erneuerbaren Energien (Biomasse + Umweltwärme + Sonnenkollektoren),1,1

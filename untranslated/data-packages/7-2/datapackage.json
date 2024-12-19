@@ -15,8 +15,27 @@
             "type": "integer"
           },
           {
+            "name": "Energieträger",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tStrom aus erneuerbaren Energien",
+                "\tStrom",
+                "\tHeizöl EL",
+                "\tFlüssiggas und Steinkohle",
+                "\tErdgas",
+                "\tFernwärme konventionell",
+                "\tFernwärme aus erneuerbaren Energien",
+                "\tWärme aus erneuerbaren Energien (Biomasse + Umweltwärme + Sonnenkollektoren)",
+                "\tHeizstrom",
+                "\tlokale erneuerbare Energien am Gesamtendenergieverbrauch",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }
