@@ -15,8 +15,20 @@
             "type": "integer"
           },
           {
+            "name": "Personengruppe",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tErwerbstätige Aufstocker*innen Gesamt",
+                "\tErwerbstätige Aufstocker*innen - Frauen",
+                "\tErwerbstätige Aufstocke*innen - Männer",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

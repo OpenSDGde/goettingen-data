@@ -222,8 +222,21 @@
             "title": "Jahr"
           },
           {
+            "name": "Personengruppe",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tErwerbstätige Aufstocker*innen Gesamt",
+                "\tErwerbstätige Aufstocker*innen - Frauen",
+                "\tErwerbstätige Aufstocke*innen - Männer",
+                ""
+              ]
+            },
+            "title": "Personengruppe"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
