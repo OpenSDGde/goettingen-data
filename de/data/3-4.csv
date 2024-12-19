@@ -1,11 +1,11 @@
-Year,Value
-	Nohlstraße (Hintergrundstation),0
-	Nohlstraße (Hintergrundstation),0
-	Nohlstraße (Hintergrundstation),1
-	Nohlstraße (Hintergrundstation),0
-	Nohlstraße (Hintergrundstation),0
-	Bürgerstraße 20 (Verkehrsstation),4
-	Bürgerstraße 20 (Verkehrsstation),1
-	Bürgerstraße 20 (Verkehrsstation),4
-	Bürgerstraße 20 (Verkehrsstation),1
-	Bürgerstraße 20 (Verkehrsstation),1
+Year,Station,Value
+2019,	Nohlstraße (Hintergrundstation),0
+2020,	Nohlstraße (Hintergrundstation),0
+2021,	Nohlstraße (Hintergrundstation),1
+2022,	Nohlstraße (Hintergrundstation),0
+2023,	Nohlstraße (Hintergrundstation),0
+2019,	Bürgerstraße 20 (Verkehrsstation),4
+2020,	Bürgerstraße 20 (Verkehrsstation),1
+2021,	Bürgerstraße 20 (Verkehrsstation),4
+2022,	Bürgerstraße 20 (Verkehrsstation),1
+2023,	Bürgerstraße 20 (Verkehrsstation),1

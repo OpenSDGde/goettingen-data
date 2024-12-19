@@ -1611,8 +1611,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Station",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tNohlstraße (Hintergrundstation)",
+                "\tBürgerstraße 20 (Verkehrsstation)",
+                ""
+              ]
+            },
+            "title": "Station"
           },
           {
             "name": "Value",
