@@ -679,6 +679,26 @@
             "title": "Jahr"
           },
           {
+            "name": "Energieträger",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tStrom",
+                "\tHeizöl EL",
+                "\tErdgas",
+                "\tFernwärme",
+                "\tBiomasse",
+                "\tUmweltwärme",
+                "\tSonnenkollektoren",
+                "\tFlüssiggas",
+                "\tSteinkohle",
+                "\tHeizstrom",
+                ""
+              ]
+            },
+            "title": "Energieträger"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
