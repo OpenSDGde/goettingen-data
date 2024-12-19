@@ -410,7 +410,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Organisationeinheiten",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tOberbürgermeisterin und Dezernate",
+                "\tFachbereiche und Referate sowie Eigenbetriebe",
+                "\tFachdienste sowie Abteilungen incl. Eigenbetrieb",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
