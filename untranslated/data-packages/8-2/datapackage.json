@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Beschäftigte",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tBeschäftigungsquote",
+                "\tBeschäftigungsquote 55- bis 64-Jährige",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
