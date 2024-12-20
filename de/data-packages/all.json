@@ -9,7 +9,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
@@ -18,8 +18,31 @@
             "title": "Jahr"
           },
           {
+            "name": "Wahl",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tRadentscheid I",
+                "\tRadentscheid II",
+                "\tEuropawahl 2024",
+                "\tLandtagswahl 2022",
+                "\tBundestagswahl 2021",
+                "\tRatswahl 2021",
+                "\tRatswahl 2016",
+                "\tEuropawahl 2014",
+                "\tOberbürgermeisterwahl 2014",
+                "\tRatswahl 2011",
+                "\tBundestagswahl 2009",
+                "\tLandtagswahl 2008",
+                "\tLandtagswahl 2003",
+                ""
+              ]
+            },
+            "title": "Wahl"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
