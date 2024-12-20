@@ -960,6 +960,19 @@
             "type": "integer"
           },
           {
+            "name": "Verkehrsmittel",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tzu Fuß",
+                "\tFahrrad",
+                "\tÖPNV",
+                "\tMIV",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

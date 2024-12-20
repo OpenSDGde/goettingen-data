@@ -16,6 +16,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Verkehrsmittel",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tzu Fuß",
+                "\tFahrrad",
+                "\tÖPNV",
+                "\tMIV",
+                ""
+              ]
+            },
+            "title": "Verkehrsmittel"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
