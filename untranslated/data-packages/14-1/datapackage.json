@@ -15,8 +15,18 @@
             "type": "integer"
           },
           {
+            "name": "Gewässer",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tBadegewässerqualität Wendebachstausee",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "string"
           }
         ]
       }
