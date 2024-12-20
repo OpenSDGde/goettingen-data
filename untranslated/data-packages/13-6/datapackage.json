@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "THG-Emissionen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tTHG-Emissionen Strom",
+                "\tTHG-Emissionen Wärme",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

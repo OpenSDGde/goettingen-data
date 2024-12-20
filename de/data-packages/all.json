@@ -2157,6 +2157,18 @@
             "title": "Jahr"
           },
           {
+            "name": "THG-Emissionen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tTHG-Emissionen Strom",
+                "\tTHG-Emissionen Wärme",
+                ""
+              ]
+            },
+            "title": "THG-Emissionen"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

@@ -1,3 +1,17 @@
-Year,Value
-2019,1
-2020,2
+Year,THG-Emissionen,Value
+1990,	THG-Emissionen Strom,5843
+2008,	THG-Emissionen Strom,4636
+2014,	THG-Emissionen Strom,4063
+2018,	THG-Emissionen Strom,4182
+2020,	THG-Emissionen Strom,2797
+2021,	THG-Emissionen Strom,3205
+2022,	THG-Emissionen Strom,3553
+2023,	THG-Emissionen Strom,3379
+1990,	THG-Emissionen Wärme,12426
+2008,	THG-Emissionen Wärme,9012
+2014,	THG-Emissionen Wärme,7131
+2018,	THG-Emissionen Wärme,8434
+2020,	THG-Emissionen Wärme,7650
+2021,	THG-Emissionen Wärme,7929
+2022,	THG-Emissionen Wärme,7062
+2023,	THG-Emissionen Wärme,6390
