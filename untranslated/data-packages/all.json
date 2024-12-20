@@ -61,8 +61,19 @@
             "type": "integer"
           },
           {
+            "name": "Art",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tMitgliedschaften in regionalen Bündnissen",
+                "\tMitgliedschaft in bundesweiten und internationalen Bündnissen",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "string"
           }
         ]
       },

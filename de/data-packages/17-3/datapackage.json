@@ -16,8 +16,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Art",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tMitgliedschaften in regionalen Bündnissen",
+                "\tMitgliedschaft in bundesweiten und internationalen Bündnissen",
+                ""
+              ]
+            },
+            "title": "Art"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "string",
             "title": "Value"
           }
         ]
