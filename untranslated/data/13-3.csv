@@ -1,6 +1,6 @@
-Year,Value
-	Haushalte,26
-	Großverbraucher (Dienstleistung & prod. Gewerbe),45
-	Gewerbe & Handel & Dienstleistung,9
-	Stadt Göttingen und städt. Gesellschaften,1
-	Verkehr,19
+Year,Sektor,Value
+2023,	Haushalte,26
+2023,	Großverbraucher (Dienstleistung & prod. Gewerbe),45
+2023,	Gewerbe & Handel & Dienstleistung,9
+2023,	Stadt Göttingen und städt. Gesellschaften,1
+2023,	Verkehr,19

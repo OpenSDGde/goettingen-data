@@ -1,9 +1,9 @@
 Value,Disaggregation combinations using this value,Number of indicators
-	Gewerbe & Handel & Dienstleistung,1,1
+	Gewerbe & Handel & Dienstleistung,2,2
 	Gewerbe + Handel + Dienstleistung,2,2
-	Großverbraucher (Dienstleistung & prod. Gewerbe),1,1
+	Großverbraucher (Dienstleistung & prod. Gewerbe),2,2
 	Großverbraucher (Dienstleistung & produzierendes Gewerbe),2,2
-	Haushalte,3,3
+	Haushalte,4,4
 	Stadt Göttingen (städtisch genutzte Gebäude und Einrichtungen),2,2
-	Stadt Göttingen und städt. Gesellschaften,1,1
-	Verkehr,1,1
+	Stadt Göttingen und städt. Gesellschaften,2,2
+	Verkehr,2,2
