@@ -1,3 +1,9 @@
-Year,Value
-2019,1
-2020,2
+Year,Verkehrsmittel,Value
+2016,	zu Fuß,	22
+2016,	Fahrrad,	28
+2016,	ÖPNV,	13
+2016,	MIV,	37
+2022,	zu Fuß,	25
+2022,	Fahrrad,	36
+2022,	ÖPNV,	9
+2022,	MIV,	30
