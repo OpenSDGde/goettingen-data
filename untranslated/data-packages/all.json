@@ -596,8 +596,19 @@
             "type": "integer"
           },
           {
+            "name": "Art",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tFahrradstraßen",
+                "\tRadwege",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },

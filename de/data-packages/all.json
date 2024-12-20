@@ -649,8 +649,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Art",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\tFahrradstraßen",
+                "\tRadwege",
+                ""
+              ]
+            },
+            "title": "Art"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
