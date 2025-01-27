@@ -1,0 +1,53 @@
+display_as: tab # tab/tile
+
+frontpage_handlungsfelder:  
+  - title: Wirtschaft
+    leitsatz: |
+      Wir schaffen die Rahmenbedingungen für eine nachhaltige Entwicklung der Wirtschaft. 
+      Als vernetzte, zukunftsorientierte und attraktive Stadt sichern wir mit technologischem 
+      und gesellschaftlichem Fortschritt den Wohlstand für alle Menschen in Ingolstadt.
+    hf-goals: "4,5,8,9,10,11,12,13"
+    hf-color: '#007ebe'
+    icon: "fa-gear"
+
+  - title: Umwelt
+    leitsatz: |
+      Wir fördern Klimaneutralität und Umweltschutz auch durch technische und digitale Lösungen. 
+      Ökologische und regionale Landwirtschaft sowie der Erhalt der Biodiversität werden unterstützt. 
+      Wir schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen und sichern diese durch ressourcenschonendes Planen und Handeln.
+    hf-goals: "2,6,7,9,11,12,13,14,15"
+    hf-color: '#65b448'
+    icon: "fa-solar-panel"
+
+  - title: Leben
+    leitsatz: |
+        Wir ermöglichen gesundes und sicheres Miteinander, Wohnen und Arbeiten für alle Menschen in Ingolstadt. 
+        Wir planen unsere Stadt mit ihren öffentlichen Räumen nachhaltig, generationsgerecht und inklusiv. 
+        Wir sichern bedarfsgerechten Wohnbau, soziale Einrichtungen und eine gute Infrastruktur.
+    hf-goals: "2,3,6,9,10,11,12,13,15,16"
+    hf-color: '#f8b715'
+    icon: "fa-book"
+
+
+  - title: Vielfalt
+    leitsatz: |
+      Wir arbeiten aktiv an einer Stadtgesellschaft, die für Vielfalt und Respekt steht. 
+      Unser Ziel sind Teilhabe und Chancengleichheit aller. 
+      Wir fördern bürgerschaftliches Engagement für ein gutes Miteinander – lokal und global.
+    hf-goals: "1,2,3,4,5,6,10,11,15,16,17"
+    hf-color: '#ed6d29'
+    icon: "fa-handshake"
+
+
+  - title: Bildung
+    leitsatz: |
+        Wir fördern Bildung, Kunst und Kultur für alle Menschen in unserer Stadt. 
+        Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Entfaltung und Entwicklung. 
+    hf-goals: "4,9,10,11,16"
+    hf-color: '#05afda'
+    icon: "fa-home"
+
+
+frontpage_handlungsfelder_title:
+  hf-title: my-custom-translations.my-hf-title
+  hf-subtitle: my-custom-translations.my-hf-subtitle
